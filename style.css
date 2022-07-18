@@ -1,0 +1,19 @@
+/* Estilos del NavBar */
+.navbar-brand{
+    color:rgb(245, 218, 43);
+}
+
+.nav-link{
+    color:darkgray;
+}
+
+
+/* MAIN */
+body{
+    background-color: rgb(14, 1, 15);
+}
+.cardUsuarios {
+    background-color:rgb(49, 5, 90);
+    margin: 2%;
+    color: rgb(226, 224, 226);
+}
