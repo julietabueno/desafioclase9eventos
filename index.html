@@ -16,6 +16,7 @@
 </head>
 
 <body>
+
     <head>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
@@ -41,17 +42,54 @@
                     </ul>
                 </div>
                 <div>
-                    <input type="color" id="inputColor" class="inputColor">
+                    <input type="color" id="inputColor">
                 </div>
             </div>
         </nav>
     </head>
 
     <main>
+        <!-- agrego form  -->
+        <div class="container">
+            <form id="idForm" class="row g-3 p-5">
+                <div class="col-md-5">
+                    <label for="idName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control " id="idName" required>
+                </div>
+                <div class="col-md-5">
+                    <label for="idLast" class="form-label">Apellido</label>
+                    <input type="text" class="form-control " id="idLast" required>
+                </div>
+                <div class="col-md-3">
+                    <label for="idPesos" class="form-label">Pesos a invertir</label>
+                    <input type="number" class="form-control " id="idPesos" required>
+                </div>
+                <div class="col-md-3">
+                    <label for="isDolares" class="form-label">Dolares a invertir</label>
+                    <input type="number" class="form-control " id="isDolares" required>
+                </div>
+                <div class="col-12">
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-warning" type="submit">Ingresar inversión</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container p-5 d-flex justify-content-around">
+            
+            <button id="botonUsuariosP" class="btn btnMoneda">Mostrar Inversion en $</button>
+            <div id="divUsuarios" class="row">
+            </div>
+
+            <button id="botonUsuariosD" class="btn btnMoneda">Mostrar Inversion en USD</button>
+            <div id="divUsuarios" class="row">
+            </div>
+        </div>
 
         <!-- //creo un div vacio para agregarle los datos de usuarios desde js. -->
 
-        <div id="usuarios" class ="row"></div>
+        <div id="usuarios" class="row"></div>
 
     </main>
 

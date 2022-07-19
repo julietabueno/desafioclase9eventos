@@ -1,19 +1,30 @@
 /* Estilos del NavBar */
-.navbar-brand{
-    color:rgb(245, 218, 43);
+.navbar-brand {
+    color: rgb(245, 218, 43);
 }
 
-.nav-link{
-    color:darkgray;
+.nav-link {
+    color: darkgray;
 }
 
 
 /* MAIN */
-body{
+body {
     background-color: rgb(14, 1, 15);
 }
+
+/* formulario */
+.form-label {
+    color: blueviolet;
+}
+
+.btnMoneda {
+    background-color: blueviolet;
+    color: white;
+}
+
 .cardUsuarios {
-    background-color:rgb(49, 5, 90);
+    background-color: rgb(49, 5, 90);
     margin: 2%;
     color: rgb(226, 224, 226);
 }
